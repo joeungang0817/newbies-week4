@@ -1,0 +1,81 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .server-status {
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+  }
+  
+  .status-icon {
+    font-size: 1.2rem;
+  }
+  
+  .input-section {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  input[type="number"] {
+    width: 80px;
+    padding: 5px;
+    font-size: 1rem;
+    text-align: center;
+  }
+  
+  select {
+    padding: 5px;
+    font-size: 1rem;
+  }
+  
+  button {
+    padding: 5px 10px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .result-section {
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  .link-wrapper {
+    margin-top: 20px;
+  }
+  .history-section {
+    margin-top: 20px;
+  }
+  
+  .history-table-container {
+    max-height: 300px; /* 최대 높이를 설정하여 화면을 넘어가면 스크롤 */
+    overflow-y: auto; /* 세로 스크롤 추가 */
+  }
+  
+  .history-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .history-table th, .history-table td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+  }
+  
+  .history-table th {
+    background-color: #f4f4f4;
+  }
+  
+  .history-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .history-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
